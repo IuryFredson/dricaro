@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcar Consulta - Dr. Ícaro Fioravante</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</head>
+<body class="bg-gray-50">
+    <nav class="bg-white shadow-lg fixed w-full z-10">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div class="flex items-center py-4">
+                        <span class="font-semibold text-gray-700 text-lg">Dr. Ícaro Fioravante</span>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <a href="index.html#sobre" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Sobre</a>
+                    <a href="index.html#experiencia" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Experiência</a>
+                    <a href="index.html#locais" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Locais</a>
+                    <a href="index.html#contato" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Adicionando a mesma configuração de imagem de fundo do index.html -->
+    <div class="relative pt-16">
+        <div class="absolute inset-0">
+            <img src="./image.JPG" alt="Medical background" class="w-full h-full object-cover"/>
+            <div class="absolute inset-0 bg-gray-900 opacity-75"></div>
+        </div>
+        <div class="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+            <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">Marcar Consulta</h1>
+            <p class="mt-6 text-xl text-gray-300 max-w-3xl">Escolha a cidade e entre em contato com a clínica mais próxima de você.</p>
+        </div>
+    </div>
+
+    <!-- Filtro por Cidade -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-center text-gray-900">Selecione sua Cidade</h2>
+            <div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <!-- Natal -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-lg font-medium text-gray-900">Natal</h3>
+                        <div class="mt-4">
+                            <a href="https://wa.me/NUMERO" target="_blank" class="flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-600">
+                                <i class="fab fa-whatsapp mr-2"></i>
+                                MedFácil
+                            </a>
+                            <a href="https://wa.me/NUMERO" target="_blank" class="flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-600 mt-2">
+                                <i class="fab fa-whatsapp mr-2"></i>
+                                Hospital Central
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Jucurutu -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-lg font-medium text-gray-900">Jucurutu</h3>
+                        <div class="mt-4">
+                            <a href="https://wa.me/NUMERO" target="_blank" class="flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-600">
+                                <i class="fab fa-whatsapp mr-2"></i>
+                                Central Clinic
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- João Câmara -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-lg font-medium text-gray-900">João Câmara</h3>
+                        <div class="mt-4">
+                            <a href="https://wa.me/NUMERO" target="_blank" class="flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-600">
+                                <i class="fab fa-whatsapp mr-2"></i>
+                                Quallivida
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Santa Cruz -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-lg font-medium text-gray-900">Santa Cruz</h3>
+                        <div class="mt-4">
+                            <a href="https://wa.me/NUMERO" target="_blank" class="flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-600">
+                                <i class="fab fa-whatsapp mr-2"></i>
+                                HUAB - UFRN
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p class="text-base text-gray-400">© 2025 Dr. Ícaro Fioravante. Todos os direitos reservados.</p>
+                <p class="mt-2 text-sm text-gray-400">CRM 9777 | RQE 5022</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
