@@ -16,13 +16,29 @@
                         <span class="font-semibold text-gray-700 text-lg">Dr. Ícaro Fioravante</span>
                     </div>
                 </div>
-                <div class="flex items-center space-x-3">
+                <div class="hidden md:flex items-center space-x-3">
                     <a href="#sobre" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Sobre</a>
                     <a href="#experiencia" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Experiência</a>
                     <a href="#locais" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Locais</a>
                     <a href="#contato" class="py-4 px-2 text-gray-500 hover:text-blue-500 transition duration-300">Contato</a>
                 </div>
+                <div class="md:hidden flex items-center">
+                    <button id="menuBtn" class="outline-none mobile-menu-button">
+                        <svg class="w-6 h-6 text-gray-500 hover:text-blue-500" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
             </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="hidden mobile-menu">
+            <ul class="">
+                <li><a href="#sobre" class="block text-sm px-2 py-4 hover:bg-blue-500 transition duration-300">Sobre</a></li>
+                <li><a href="#experiencia" class="block text-sm px-2 py-4 hover:bg-blue-500 transition duration-300">Experiência</a></li>
+                <li><a href="#locais" class="block text-sm px-2 py-4 hover:bg-blue-500 transition duration-300">Locais</a></li>
+                <li><a href="#contato" class="block text-sm px-2 py-4 hover:bg-blue-500 transition duration-300">Contato</a></li>
+            </ul>
         </div>
     </nav>
 
@@ -65,7 +81,7 @@
         </div>
     </section>
 
-       <!-- Experiência Section -->
+    <!-- Experiência Section -->
 <section id="experiencia" class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl font-extrabold text-center text-gray-900">Experiência Profissional</h2>
@@ -88,13 +104,13 @@
                 </ul>
             </div>
 
-            <div class="w-64 h-64 flex-shrink-0"style=" margin-top: -60px;">
+            <!-- Contêiner da imagem com proporção 1:1 (quadrada) -->
+            <div class="w-48 h-48 sm:w-64 sm:h-64 flex-shrink-0 mt-8 sm:mt-0">
                 <img src="./image2.png" alt="Dr. Ícaro Fioravante" class="w-full h-full rounded-full object-cover shadow-lg">
             </div>
         </div>
     </div>
 </section>
-
     <!-- Locais Section -->
     <section id="locais" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -118,7 +134,6 @@
                         <p class="mt-2 text-gray-600">Rua Otávio Lamartine, N° 38 B, Centro, Jucurutu | RN – CEP: 59330-000</p>
                         <div class="mt-4">
                             <a href="https://www.google.com/maps/place/Central+clinic+Jucurutu/@-5.576453,-36.9896872,12.5z/data=!4m3!3m2!1s0x6f79bd0a958cd77f:0x363d7db7729c4b12!16s%2Fg%2F11l240w6k7?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D" class="text-blue-500 hover:text-blue-600">Ver no mapa →</a>
-        
                         </div>
                     </div>
                 </div>
@@ -156,42 +171,51 @@
         </div>
     </section>
 
-   <!-- Contato Section -->
-   <section id="contato" class="py-20 bg-gray-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-extrabold text-center text-gray-900">Entre em Contato</h2>
-        <div class="mt-10 max-w-lg mx-auto">
-            <div class="grid grid-cols-1 gap-6">
-                <!-- Email -->
-                <a href="mailto:icarofioravant@gmail.com " class="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-500 hover:bg-gray-600 md:py-4 md:text-lg md:px-10">
-                    <i class="fas fa-envelope mr-2"></i>
-                    Email
-                </a>
+    <!-- Contato Section -->
+    <section id="contato" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-center text-gray-900">Entre em Contato</h2>
+            <div class="mt-10 max-w-lg mx-auto">
+                <div class="grid grid-cols-1 gap-6">
+                    <!-- Email -->
+                    <a href="mailto:icarofioravant@gmail.com" class="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-500 hover:bg-gray-600 md:py-4 md:text-lg md:px-10">
+                        <i class="fas fa-envelope mr-2"></i>
+                        Email
+                    </a>
 
-                <!-- Instagram -->
-                <a href="https://www.instagram.com/dr.icarofioravante?igsh=NWdxMDdpYmg3M2cy" target="_blank" class="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-500 hover:bg-pink-600 md:py-4 md:text-lg md:px-10">
-                    <i class="fab fa-instagram mr-2"></i>
-                    Instagram
-                </a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/dr.icarofioravante?igsh=NWdxMDdpYmg3M2cy" target="_blank" class="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-500 hover:bg-pink-600 md:py-4 md:text-lg md:px-10">
+                        <i class="fab fa-instagram mr-2"></i>
+                        Instagram
+                    </a>
 
-                <!-- Botão "Marcar Consulta" -->
-                <a href="marcar-consulta.html" class="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-600 md:py-4 md:text-lg md:px-10">
-                    <i class="fab fa-whatsapp mr-2"></i>
-                    Marcar Consulta
-                </a>
+                    <!-- Botão "Marcar Consulta" -->
+                    <a href="marcar-consulta.html" class="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-600 md:py-4 md:text-lg md:px-10">
+                        <i class="fab fa-whatsapp mr-2"></i>
+                        Marcar Consulta
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Footer -->
-<footer class="bg-gray-800">
-    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div class="text-center">
-            <p class="text-base text-gray-400">© 2025 Dr. Ícaro Fioravante. Todos os direitos reservados.</p>
-            <p class="mt-2 text-sm text-gray-400">CRM 9777 | RQE 5022</p>
+    <!-- Footer -->
+    <footer class="bg-gray-800">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p class="text-base text-gray-400">© 2025 Dr. Ícaro Fioravante. Todos os direitos reservados.</p>
+                <p class="mt-2 text-sm text-gray-400">CRM 9777 | RQE 5022</p>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
+
+    <script>
+        const btn = document.getElementById("menuBtn");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+    </script>
 </body>
 </html>
