@@ -284,7 +284,7 @@ function App() {
               <div className="h-48 bg-gray-700 relative">
                 {/* Imagem da Quallivida */}
                 <img
-                  src="/QUALIVIDA.jpg"
+                  src="/qualivida.jpg"
                   alt="Clínica Quallivida"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
