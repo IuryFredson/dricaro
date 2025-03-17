@@ -225,7 +225,7 @@ function App() {
               <div className="h-48 bg-gray-700 relative">
                 {/* Imagem da MedFácil */}
                 <img
-                  src="/medfacil.png"
+                  src="/MEDFACIL.png"
                   alt="Clínica MedFácil"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
@@ -255,7 +255,7 @@ function App() {
               <div className="h-48 bg-gray-700 relative">
                 {/* Imagem da Central Clinic */}
                 <img
-                  src="/centralclinic.jpg"
+                  src="/CENTRALCLINIC.jpg"
                   alt="Central Clinic"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
