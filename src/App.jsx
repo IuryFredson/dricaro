@@ -366,14 +366,12 @@ function App() {
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">AMI Personali</h3>
                 <p className="text-gray-700 mb-4">
-                  <strong>Manhattan Business</strong>
+                  Praça Augusto Leite, 656
                   <br />
-                  Av. Campos Sales, 901 – Salas 1201 e 1202
-                  <br />
-                  Tirol, Natal | RN – CEP: 59020-300
+                  Tirol, Natal | RN – CEP: 59020-380
                 </p>
                 <a
-                  href="https://www.google.com/maps?ll=-5.793702,-35.201881&z=16&t=m&hl=pt-BR&gl=US&mapclient=embed&cid=15449437247759503614"
+                  href="https://www.google.com.br/maps/place/Ami+Vacinas+-+Personali+-+Unidade+Tirol/@-5.799588,-35.2062665,17z/data=!3m1!4b1!4m6!3m5!1s0x7b3001b3379c655:0x1772959c0b24b6!8m2!3d-5.7995933!4d-35.2036916!16s%2Fg%2F1yg578p10?hl=pt-PT&entry=ttu&g_ep=EgoyMDI1MDQwMS4wIKXMDSoASAFQAw%3D%3D"
                   className="inline-flex items-center text-[#A0D2EB] hover:text-[#8FB8D1]"
                   target="_blank"
                   rel="noopener noreferrer"
