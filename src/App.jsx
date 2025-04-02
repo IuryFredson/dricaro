@@ -125,7 +125,7 @@ function App() {
                 <img
                   src="/Logo.png"
                   alt="Logo"
-                  className="w-20 h-20 mx-auto md:mx-0"
+                  className="w-30 h-30 mx-auto md:mx-0"
                 />
               </div>
               <h1 className="text-5xl font-bold mb-4">Dr. Ícaro Fioravante</h1>
