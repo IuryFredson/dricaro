@@ -477,12 +477,12 @@ function App() {
 
               <div className="grid grid-cols-1 gap-4">
                 <a
-                  href="https://wa.me/558430884488"
+                  href="https://wa.me/5584999241860"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-between bg-green-600 py-4 px-6 rounded-lg hover:bg-green-700 transition duration-300"
                 >
-                  <span>MedFácil (Natal)</span>
+                  <span>AMI Personali (Natal)</span>
                   <FontAwesomeIcon icon={faWhatsapp} className="ml-3 text-xl" />
                 </a>
 
