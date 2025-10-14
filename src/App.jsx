@@ -351,7 +351,7 @@ function App() {
             LOCAIS DE ATENDIMENTO
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             {/* AMI Personali */}
             <div className="bg-[#F0F4F8] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
               <div className="h-48 bg-gray-700 relative">
