@@ -463,16 +463,6 @@ function App() {
                   <span>Central Clinic (Jucurutu)</span>
                   <FontAwesomeIcon icon={faWhatsapp} className="ml-3 text-xl" />
                 </a>
-
-                <a
-                  href="https://wa.me/558491773097"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-between bg-green-600 py-4 px-6 rounded-lg hover:bg-green-700 transition duration-300"
-                >
-                  <span>Quallivida (João Câmara)</span>
-                  <FontAwesomeIcon icon={faWhatsapp} className="ml-3 text-xl" />
-                </a>
               </div>
             </div>
           </div>
