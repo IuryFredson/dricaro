@@ -410,36 +410,6 @@ function App() {
                 </a>
               </div>
             </div>
-
-            {/* Quallivida */}
-            <div className="bg-[#F0F4F8] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
-              <div className="h-48 bg-gray-700 relative">
-                {/* Imagem da Quallivida */}
-                <img
-                  src="/QUALIVIDA.jpg"
-                  alt="Clínica Quallivida"
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gray-600 opacity-50"></div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">Clínica Quallivida</h3>
-                <p className="text-gray-700 mb-4">
-                  Rua Jerônimo Câmara, R. Abílio Ventura, 385
-                  <br />
-                  João Câmara | RN, CEP: 59550-000
-                </p>
-                <a
-                  href="https://www.google.com/maps/place/Cl%C3%ADnica+Quallivida/data=!4m2!3m1!1s0x0:0xd60f1068fc0d0ba7?sa=X&ved=1t:2428&ictx=111"
-                  className="inline-flex items-center text-[#A0D2EB] hover:text-[#8FB8D1]"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2" />
-                  <span>Ver no mapa</span>
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
