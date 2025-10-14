@@ -351,11 +351,10 @@ function App() {
             LOCAIS DE ATENDIMENTO
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
             {/* AMI Personali */}
             <div className="bg-[#F0F4F8] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
               <div className="h-48 bg-gray-700 relative">
-                {/* Imagem da AMI Personali */}
                 <img
                   src="/AMIPersonali.png"
                   alt="Clínica AMI Personali"
@@ -385,7 +384,6 @@ function App() {
             {/* Central Clinic */}
             <div className="bg-[#F0F4F8] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
               <div className="h-48 bg-gray-700 relative">
-                {/* Imagem da Central Clinic */}
                 <img
                   src="/CENTRALCLINIC.jpg"
                   alt="Central Clinic"
