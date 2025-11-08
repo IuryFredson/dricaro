@@ -130,7 +130,7 @@ function App() {
               </div>
               <h1 className="text-5xl font-bold mb-4">Dr. Ícaro Fioravante</h1>
               <h2 className="text-xl font-medium text-gray-300 mb-8">
-                PEDIATRA ESPECIALISTA
+                MÉDICO PEDIATRA
               </h2>
               <p className="text-sm text-gray-400 mb-8">CRM 9777 | RQE 5022</p>
               <a
@@ -239,6 +239,44 @@ function App() {
                 </svg>
               </button>
             </div>
+
+            <div className="bg-[#F0F4F8] rounded-md overflow-hidden hover:shadow-xl transition duration-300">
+              <button className="w-full p-4 flex items-center justify-between text-left">
+                <span>Atendimento em Dermatologia Pediátrica</span>
+                <svg
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+            </div>
+
+            <div className="bg-[#F0F4F8] rounded-md overflow-hidden hover:shadow-xl transition duration-300">
+              <button className="w-full p-4 flex items-center justify-between text-left">
+                <span>Consulta Pediátrica Pré-Natal</span>
+                <svg
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
 
           <div className="mt-16 text-center">
@@ -283,7 +321,8 @@ function App() {
                 <p className="mb-6">
                   Formado pela <strong>Universidade Potiguar (UNP)</strong>, com
                   residência médica em <strong>Pediatria</strong> pelo Hospital
-                  Universitário Onofre Lopes (HUOL-UFRN).
+                  Universitário Onofre Lopes (HUOL-UFRN) e pós-graduação em
+                  Dermatologia Pediátrica pela Universidade Sectras.
                 </p>
                 <p>
                   Minha maior satisfação é acompanhar o crescimento e
