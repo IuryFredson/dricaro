@@ -466,7 +466,7 @@ const App = () => {
       </section>
 
       {/* Depoimentos */}
-      <section className="py-24 bg-white overflow-hidden">
+      <section id="depoimentos" className="py-24 bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[#2C3E50] mb-4 uppercase tracking-tighter">
