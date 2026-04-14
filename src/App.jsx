@@ -144,6 +144,9 @@ const App = () => {
             <NavLink href="#especialidades" scrolled={scrolled}>
               Especialidades
             </NavLink>
+            <NavLink href="#depoimentos" scrolled={scrolled}>
+              Depoimentos
+            </NavLink>
             <NavLink href="#locais" scrolled={scrolled}>
               Onde Atendo
             </NavLink>
@@ -189,6 +192,15 @@ const App = () => {
             >
               Especialidades
             </a>
+
+            <a
+              href="#depoimentos"
+              onClick={() => setIsMenuOpen(false)}
+              className="text-2xl font-bold text-[#2C3E50]"
+            >
+              Depoimentos
+            </a>
+
             <a
               href="#locais"
               onClick={() => setIsMenuOpen(false)}
