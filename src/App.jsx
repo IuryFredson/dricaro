@@ -422,7 +422,7 @@ const App = () => {
               <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-gray-100 shadow-sm">
                 <Stethoscope size={20} className="text-[#A0D2EB]" />{" "}
                 <span className="text-sm font-bold text-[#2C3E50]">
-                  Dermatopediatra
+                  Dermatologia Pediátrica
                 </span>
               </div>
             </div>
